@@ -1,25 +1,25 @@
-using System;
+// using System;
 
-namespace StudentRegistrationPrj
-{
+// namespace StudentRegistrationPrj
+// {
 
-    class StudentRegistrationApp
-    {
+//     class StudentRegistrationApp
+//     {
 
-        public static void Main(string[] args)
-        {
-            Console.WriteLine("Student Registration Form\n");
+//         public static void Main(string[] args)
+//         {
+//             Console.WriteLine("Student Registration Form\n");
 
-            Console.Write("Enter first name: ");
-            string firstName = Console.ReadLine();
-            Console.Write("Enter last name: ");
-            string lastName = Console.ReadLine();
-            Console.Write("Enter year of birth: ");
-            int year = Convert.ToInt32(Console.ReadLine());
+//             Console.Write("Enter first name: ");
+//             string firstName = Console.ReadLine();
+//             Console.Write("Enter last name: ");
+//             string lastName = Console.ReadLine();
+//             Console.Write("Enter year of birth: ");
+//             int year = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("\nWelcome " + firstName + " " + lastName + "!");
-            Console.WriteLine("Your registration is complete.");
-            Console.WriteLine("Your temporary password is: " + firstName + "*" + year);
-        }
-    }
-}
+//             Console.WriteLine("\nWelcome " + firstName + " " + lastName + "!");
+//             Console.WriteLine("Your registration is complete.");
+//             Console.WriteLine("Your temporary password is: " + firstName + "*" + year);
+//         }
+//     }
+// }
